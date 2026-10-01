@@ -35,6 +35,7 @@ python3 tools/summarize_stream.py runs/xxx.jsonl   # INIT(에이전트·스킬) 
 | 9장 실행 모드 | [`ch09-execution-modes`](ch09-execution-modes) | 서브에이전트 병렬(29초) vs 순차(68초), 동시에 띄운 의존 서브가 낡은 결과를 전하는 암묵적 의존성 |
 | 10장 등록과 진화 | [`ch10-registration`](ch10-registration) | CLAUDE.md 포인터 유무에 따른 스킬 호출(4/6 vs 6/6), HTML 주석 속 규칙의 소멸 |
 | 11장 코드 리뷰 팀 | [`ch11-code-review`](ch11-code-review) | 버그 4종 PR을 1인 vs 3인 팀으로 실측 — 88줄에선 7/8 동률, 팀은 3~5배 비용에 폭이 넓음 |
+| 12장 풀스택 팀 | [`ch12-fullstack`](ch12-fullstack) | 경계면 버그 6종 — tsc --strict 0개, 한쪽씩 보는 리뷰어 3/6(후한 채점), 양쪽을 함께 읽는 boundary-verifier 6/6 |
 
 진행에 따라 장이 추가된다.
 
