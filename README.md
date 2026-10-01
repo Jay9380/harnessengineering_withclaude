@@ -31,6 +31,7 @@ python3 tools/summarize_stream.py runs/xxx.jsonl   # INIT(에이전트·스킬) 
 | 5장 스킬 설계 | [`ch05-skill-design`](ch05-skill-design) | description만 바꾼 호출률, 한국어 description이 목록 예산 초과로 통째로 사라지는 경계, references 조건부 로딩 |
 | 6장 오케스트레이터 | [`ch06-orchestrator`](ch06-orchestrator) | 지금 도구로 본 팀 프리미티브 — TeamCreate 부재, addBlockedBy 의존성, 이름 대신 agentId로 해야 성립하는 직접 메시지 |
 | 7장 메타스킬 | [`ch07-metaskill`](ch07-metaskill) | 실물 메타스킬(revfactory/harness v2.1.0)의 30초 점검과 should/should-NOT 호출 검증 |
+| 8장 아키텍처 패턴 | [`ch08-patterns`](ch08-patterns) | 생성-검증 루프에 실제 claude를 넣고 MAX_RETRIES·에스컬레이트·검증자 변조 감시 |
 
 진행에 따라 장이 추가된다.
 
