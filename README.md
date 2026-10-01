@@ -37,6 +37,7 @@ python3 tools/summarize_stream.py runs/xxx.jsonl   # INIT(에이전트·스킬) 
 | 11장 코드 리뷰 팀 | [`ch11-code-review`](ch11-code-review) | 버그 4종 PR을 1인 vs 3인 팀으로 실측 — 88줄에선 7/8 동률, 팀은 3~5배 비용에 폭이 넓음 |
 | 12장 풀스택 팀 | [`ch12-fullstack`](ch12-fullstack) | 경계면 버그 6종 — tsc --strict 0개, 한쪽씩 보는 리뷰어 3/6(후한 채점), 양쪽을 함께 읽는 boundary-verifier 6/6 |
 | 13장 마이그레이션 팀 | [`ch13-migration`](ch13-migration) | 워커 3명이 batches.json에서 동시에 claim — 직접 편집은 5회 중 2회 '버려진 선점'으로 누락, 원자적 claim 스크립트는 2/2 완료 |
+| 14장 디버깅/RCA 팀 | [`ch14-debugging`](ch14-debugging) | 재현 게이트 없이 "고쳐줘"는 9회 중 2회 거짓 완료(버그 리포트를 고치고 완료 선언까지), reproduction.sh 게이트는 9/9 |
 
 진행에 따라 장이 추가된다.
 
