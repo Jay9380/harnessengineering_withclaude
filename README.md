@@ -33,6 +33,7 @@ python3 tools/summarize_stream.py runs/xxx.jsonl   # INIT(에이전트·스킬) 
 | 7장 메타스킬 | [`ch07-metaskill`](ch07-metaskill) | 실물 메타스킬(revfactory/harness v2.1.0)의 30초 점검과 should/should-NOT 호출 검증 |
 | 8장 아키텍처 패턴 | [`ch08-patterns`](ch08-patterns) | 생성-검증 루프에 실제 claude를 넣고 MAX_RETRIES·에스컬레이트·검증자 변조 감시 |
 | 9장 실행 모드 | [`ch09-execution-modes`](ch09-execution-modes) | 서브에이전트 병렬(29초) vs 순차(68초), 동시에 띄운 의존 서브가 낡은 결과를 전하는 암묵적 의존성 |
+| 10장 등록과 진화 | [`ch10-registration`](ch10-registration) | CLAUDE.md 포인터 유무에 따른 스킬 호출(4/6 vs 6/6), HTML 주석 속 규칙의 소멸 |
 
 진행에 따라 장이 추가된다.
 
