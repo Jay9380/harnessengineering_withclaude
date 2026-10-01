@@ -30,6 +30,7 @@ python3 tools/summarize_stream.py runs/xxx.jsonl   # INIT(에이전트·스킬) 
 | 4장 에이전트 정의 | [`ch04-agent-definition`](ch04-agent-definition) | `tools`는 강제, 본문은 설득 — "읽기 전용" 에이전트가 Bash로 파일을 고친 실측, 서브에이전트 보고서 파일 차단 |
 | 5장 스킬 설계 | [`ch05-skill-design`](ch05-skill-design) | description만 바꾼 호출률, 한국어 description이 목록 예산 초과로 통째로 사라지는 경계, references 조건부 로딩 |
 | 6장 오케스트레이터 | [`ch06-orchestrator`](ch06-orchestrator) | 지금 도구로 본 팀 프리미티브 — TeamCreate 부재, addBlockedBy 의존성, 이름 대신 agentId로 해야 성립하는 직접 메시지 |
+| 7장 메타스킬 | [`ch07-metaskill`](ch07-metaskill) | 실물 메타스킬(revfactory/harness v2.1.0)의 30초 점검과 should/should-NOT 호출 검증 |
 
 진행에 따라 장이 추가된다.
 
