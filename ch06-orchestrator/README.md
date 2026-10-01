@@ -52,4 +52,9 @@ checker는 메시지가 오기 전에 한 번 '완료' 상태가 됐는데, 도�
 | `SendMessage({to, summary, message})` | 같음. 단 `to`는 이름(팀원/ListAgents에 보이는 이름) 또는 agentId, `"main"`(백그라운드 서브에이전트→메인) |
 | `TeamDelete()` + `shutdown_request` | 해당 도구 없음 (공식 문서: 실험적 에이전트 팀은 세션당 팀 하나가 자동 생성) |
 
+> **저자 쪽 확인.** 책의 메타스킬 저장소 [revfactory/harness](https://github.com/revfactory/harness) CHANGELOG 2.0.0(2026-07-19):
+> "v1의 전제였던 실험적 Agent Teams API가 현행 Claude Code에서 사라졌고 … `TeamCreate`/`TeamDelete`/`team_name` 전면 제거 —
+> v1 오케스트레이터는 이 API를 호출하다 단일 에이전트 실행으로 조용히 퇴화하는 실질적 브로큰 상태였다."
+> v2는 `Agent(name:)` + `SendMessage` + `TaskCreate/TaskUpdate`, `Workflow` 스크립트, 서브에이전트 위임의 세 실행 모드를 쓴다.
+
 공식 문서상 '에이전트 팀(팀원끼리 직접 메시지)'은 실험 기능이고 `-p`(헤드리스)에서는 팀원이 없다. 그래서 이 폴더의 실험은 **서브에이전트 + SendMessage** 범위다. 책의 원리(리더는 주소와 구조만 주고 내용은 팀원끼리)는 이 범위에서도 그대로 확인된다.
