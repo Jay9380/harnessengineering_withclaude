@@ -38,8 +38,9 @@ python3 tools/summarize_stream.py runs/xxx.jsonl   # INIT(에이전트·스킬) 
 | 12장 풀스택 팀 | [`ch12-fullstack`](ch12-fullstack) | 경계면 버그 6종 — tsc --strict 0개, 한쪽씩 보는 리뷰어 3/6(후한 채점), 양쪽을 함께 읽는 boundary-verifier 6/6 |
 | 13장 마이그레이션 팀 | [`ch13-migration`](ch13-migration) | 워커 3명이 batches.json에서 동시에 claim — 직접 편집은 5회 중 2회 '버려진 선점'으로 누락, 원자적 claim 스크립트는 2/2 완료 |
 | 14장 디버깅/RCA 팀 | [`ch14-debugging`](ch14-debugging) | 재현 게이트 없이 "고쳐줘"는 9회 중 2회 거짓 완료(버그 리포트를 고치고 완료 선언까지), reproduction.sh 게이트는 9/9 |
+| 부록 A~D | [`appendix`](appendix) | CLAUDE.md 타임스탬프 한 줄로 캐시 적중 100%→69%(입력 비용 약 7배), 5분 진단 스크립트 |
 
-진행에 따라 장이 추가된다.
+1~14장과 부록까지 모두 실습했다.
 
 ## 출처와 라이선스
 
