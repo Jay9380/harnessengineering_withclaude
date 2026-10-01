@@ -1,0 +1,7 @@
+이 저장소의 일부 파일은 『하네스 엔지니어링 with 클로드 코드』(황민호, 한빛미디어)의
+예제 저장소 https://github.com/revfactory/harness-engineering-with-cc (커밋 d81b72b)에서
+가져왔다. 원본 라이선스: Apache License 2.0 (tools/BOOK-EXAMPLES-LICENSE).
+
+가져온 파일에는 각 장 README의 "출처" 표에 원본 경로를 적었고,
+수정한 경우 그 사실과 이유를 함께 적었다.
+그 밖의 파일(훅 스크립트, 실험 스크립트, 실측 결과 기록)은 이 저장소에서 새로 작성했다.
