@@ -70,6 +70,9 @@ _workspace/review-report.md는 작성하지 않았습니다. 이번 실행 환�
 클로드 코드가 서브에이전트에 기본으로 주는 지침(결과는 파일이 아니라 응답으로 돌려준다)이 사용자의 에이전트 정의보다 우선한 것으로 보인다.
 1회차에는 파일을 썼으니 **항상 그런 것도 아니다.**
 
+> 4장 실험에서 확인: 지침만이 아니라 **도구 단계의 차단**도 있다. Write 권한이 있는 서브에이전트가 `report.md`·`summary.md`를 쓰려 하면
+> `Subagents should return findings as text, not write report files.`로 막힌다(`review-report.md`는 통과). → [`ch04-agent-definition`](../ch04-agent-definition#실험-15--서브에이전트는-보고서-파일을-쓸-수-없다-클로드-코드-자체의-강제)
+
 > 실무 결론: "검증 결과를 파일로 남긴다"가 중요하다면 서브에이전트에게 맡기지 말고, **반환된 판정을 메인(또는 훅·스크립트)이 저장**하도록 설계한다.
 
 ### 4. 스킬 `allowed-tools`는 다른 도구를 막지 않는다

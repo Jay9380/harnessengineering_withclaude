@@ -27,6 +27,7 @@ python3 tools/summarize_stream.py runs/xxx.jsonl   # INIT(에이전트·스킬) 
 | 1장 왜 하네스인가 | [`ch01-hooks`](ch01-hooks) | 설득(CLAUDE.md) 대신 강제(PreToolUse 훅) — `git add -A` 차단 훅과 그 한계 |
 | 2장 30분 Quick Start | [`ch02-quick-start`](ch02-quick-start) | 책의 2인 팀을 그대로 돌려 보기 — 검증자 부재 시 강등, 보고서 파일 미작성의 원인, 스킬 allowed-tools, 깨진 프런트매터 |
 | 3장 책임 분리 | [`ch03-responsibility`](ch03-responsibility) | 같은 300줄을 CLAUDE.md·에이전트·스킬에 넣었을 때의 컨텍스트 비용 실측 |
+| 4장 에이전트 정의 | [`ch04-agent-definition`](ch04-agent-definition) | `tools`는 강제, 본문은 설득 — "읽기 전용" 에이전트가 Bash로 파일을 고친 실측, 서브에이전트 보고서 파일 차단 |
 
 진행에 따라 장이 추가된다.
 
